@@ -32,11 +32,13 @@ This is a simple web-based visualization tool for the classic algorithm **"Add T
 ---
 
 ## 📂 File Structure
-
+```
 ├── index.html # Main HTML page
-├── style.css # Styling for layout and visuals
-├── main.js # Core logic and interactivity
 
+├── style.css # Styling for layout and visuals
+
+├── main.js # Core logic and interactivity
+```
 ---
 
 ## 📦 Local Usage
