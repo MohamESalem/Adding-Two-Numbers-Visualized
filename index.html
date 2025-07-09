@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Two Numbers Algorithm Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Two Numbers Algorithm</h1>
+        <div class="input-section">
+            <div class="input-group">
+                <label for="num1-input">First Number:</label>
+                <input type="text" id="num1-input" placeholder="342" value="342">
+            </div>
+            <div class="input-group">
+                <label for="num2-input">Second Number:</label>
+                <input type="text" id="num2-input" placeholder="465" value="465">
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="setup-btn" class="btn-primary">Setup</button>
+        <button id="next-btn" class="btn-secondary">Next Step</button>
+        <button id="reset-btn" class="btn-primary">Reset</button>
+        <button id="autoplay-btn" class="btn-secondary">Auto Play</button>
+    </div>
+
+    <div class="visualization">
+        <div id="step-counter" class="step-counter">Step 0: Initialize</div>
+        <div class="lists-container">
+
+            <div class="list-section">
+                <div class="list-title">List 2 (l2)</div>
+                <div class="linked-list" id="list2-container"></div>
+            </div>
+
+            <div class="list-section">
+                <div class="list-title">Result</div>
+                <div class="linked-list" id="result-container"></div>
+            </div>
+
+            <div class="list-section">
+                <div class="list-title">List 1 (l1)</div>
+                <div class="linked-list" id="list1-container"></div>
+            </div>
+
+        </div>
+
+        <div id="carry-display" class="carry-display">Carry: 0</div>
+
+        <div id="state-info" class="state-info">
+            <h3>Algorithm Status</h3>
+            <p>Enter two numbers and click "Setup" to begin.</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    
+    
+</body>
+</html>
