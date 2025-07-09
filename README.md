@@ -6,9 +6,7 @@ This is a simple web-based visualization tool for the classic algorithm **"Add T
 
 > Enter two numbers, press **Setup**, and step through or autoplay the algorithm to see how linked lists simulate the addition process.
 
-
-
-https://github.com/user-attachments/assets/8930ba46-79f6-4b8c-9f6c-30d836e4e554
+![2025-07-0923-21-54-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/9afb71b5-ab40-4603-9c13-c7f0f63f5936)
 
 
 ---
